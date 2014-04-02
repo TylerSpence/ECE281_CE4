@@ -1,4 +1,4 @@
-	Loop	   00	   7	LDAI	C		N	1	Y
+		   00	   7	LDAI	C		N	1	Y
 		   01	   C			subtracts 4	Y	0	N
 		   02	   E	ADDD	B0	loads the input	N	2	Y
 		   03	   0				Y	0	N
@@ -8,8 +8,8 @@
 		   07	   B				Y	0	N
 		   08	   4	OUT	2		N	1	Y
 		   09	   2				Y	0	N
-		   0A	   9	JMP	Loop		N	2	Y
-		   0B	   0				Y	0	N
+	Loop	   0A	   9	JMP	Loop		N	2	Y
+		   0B	   A				Y	0	N
 		   0C	   0				Y	0	N
 		   0D	   0	NOP			N	0	Y
 		   0E	   0	NOP			N	0	Y

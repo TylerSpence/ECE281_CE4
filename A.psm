@@ -1,4 +1,4 @@
-	Loop	   00	   7	LDAI	9	loads value 9	N	1	Y
+		   00	   7	LDAI	9	loads value 9	N	1	Y
 		   01	   9				Y	0	N
 		   02	   D	STA	B0	stores to B0	N	2	Y
 		   03	   0				Y	0	N
@@ -13,8 +13,8 @@
 		   0C	   D	STA	CB	Stores B to CB	N	2	Y
 		   0D	   B				Y	0	N
 		   0E	   C				Y	0	N
-		   0F	   9	JMP	Loop		N	2	Y
-		   10	   0				Y	0	N
+	Loop	   0F	   9	JMP	Loop		N	2	Y
+		   10	   F				Y	0	N
 		   11	   0				Y	0	N
 		   12	   0	NOP			N	0	Y
 		   13	   0	NOP			N	0	Y
@@ -174,7 +174,7 @@
 		   AD	   0	NOP			N	0	Y
 		   AE	   0	NOP			N	0	Y
 		   AF	   0	NOP			N	0	Y
-	B0	   B0	   0	
+	B0	   B0	   9	
 		   B1	   0	
 		   B2	   0	
 		   B3	   0	
@@ -194,14 +194,14 @@
 		   C1	   0	
 		   C2	   0	
 		   C3	   0	
-	C4	   C4	   0	
+	C4	   C4	   8	
 		   C5	   0	
 		   C6	   0	
 		   C7	   0	
 		   C8	   0	
 		   C9	   0	
 		   CA	   0	
-	CB	   CB	   0	
+	CB	   CB	   B	
 		   CC	   0	
 		   CD	   0	
 		   CE	   0	
